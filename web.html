@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>KAYRA YURTSEVER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+    <nav>
+        <button onclick="document.getElementById('about').scrollIntoView();">Hakkında</button>
+        <button onclick="document.getElementById('hobbies-interests').scrollIntoView();">Hobilerim/İlgi Alanlarım</button>
+        <button onclick="document.getElementById('footer').scrollIntoView();">İletişim</button>
+        <button id="dark-mode-toggle">Karanlık Mod</button>
+
+    </nav>
+    <header>
+        <h1>WEB SİTEME HOŞGELDİNİZ</h1>
+    </header>
+</body>
+    <section id="about">
+        <h2>Hakkımda</h2>
+        <div class="about-container">
+            <img src="profil-foto.jpg" alt="Kayra Yurtsever in porfil fotorafı" id="about-img">
+            <p>Merhaba ben Kayra Yurtsever Ankara medipol Üniversitesi yönetim bilişim sistemleri 3. sınıf öğrencisiyim.</p>
+            <button id="download-cv" onclick="window.location.href='cv-kayra-yurtsever.pdf';">CV'imi İndir</button>
+        </div>
+    </section>    
+        <div id="image-slider">
+            <h3>Sevdiğim Fotoğraflarım</h3>
+            <div class="image-info-container">
+                <p id="image-info">Gazi Üniiversitesi emircanlar ile fuarda</p>
+            </div>
+            <img src="image1.jpg" alt="Gazi Üniiversitesi emircanlar ile fuarda" id="slider-image">
+            <button id="next-image">Sonraki Fotoğrafım İçin Tıklayınız</button>
+        </div>
+    </section>    
+    <div id="hobbies-interests">
+        <section id="hobbies">
+            <h2>Hobilerim</h2>
+            <ul>
+                <li>spor yapmak</li>
+                <li>motor sürmek</li>
+                <li>bilgisayar oyunları oynamak</li>
+                <li>bilardo oynamak</li>
+                <li>yemek yapmak</li>
+                <li>uzun yola gitmek</li>
+                <li>yeni içecek ve yemekleri denemek</li>
+            </ul>
+        </section>
+        <section id="interests">
+            <h2>İlgi Alanlarım</h2>
+            <ul>
+                <li>web tasarımı</li>
+                <li>Uygulama Geliştirme</li>
+                <li>excel</li>
+                <li>Kişisel gelişim bilgileri</li>
+                <li>Sosyal medya</li>
+            </ul>
+        </section>
+    </div>    
+    <footer>
+        <h2>İletişim</h2>
+        <div id="contact-info">
+            <p>Email: kayrayrtsvr@gmail.com</p>
+            <p>Sosyal Medya: <a href="https://tr.linkedin.com/in/kayra-yurtsever-67961a300">LinkedIn</a>, <a href="https://www.youtube.com/channel/UCi-Uo6D3bBOxW_UTrZAD52w">youtube</a>, <a href="https://tr-tr.facebook.com/kayra.yurtsever.1">facebook</a></p>
+        </div>
+        <button id="toggle-contact">İletişim Bilgilerini Göster/Gizle</button>
+    </footer>    
+</body>
+</html>
